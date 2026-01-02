@@ -3,60 +3,93 @@
 
 <PageTitle>Home</PageTitle>
 <MudContainer>
-    <MudGrid>
+    <MudGrid Justify="Justify.Center">
         <MudItem xxl="6" xl="6" lg="6" md="6" sm="12">
             <MudGrid Justify="Justify.SpaceBetween">
                 <MudItem>
-                    <MudText Inline="true" Style="color:white;" Typo="Typo.h4">
-                        <b>I`m a <MudText Typo="Typo.h4" Inline="true" Color="Color.Info">.NET </MudText>developer</b>
-                    </MudText>
-                    <br />
-                    <br />
-                    <MudText Typo="Typo.body1" Style="color:lightgray;">Building powerful applications with C#, ASP.NET Core, and modern web technologies.</MudText>
+                    <ChildContent>
+                        <MudText Inline="true" Style="color:white;" Typo="Typo.h4">
+                            <b>I`m a <MudText Typo="Typo.h4" Inline="true" Color="Color.Info">.NET </MudText>developer</b>
+                        </MudText>
+                        <br />
+                        <br />
+                        <MudText Typo="Typo.body1" Style="color:lightgray;">Building powerful applications with C#, ASP.NET Core, and modern web technologies.</MudText>
+                    </ChildContent>
                 </MudItem>
-                <MudItem Class="J-B">
-                    <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
-                        <MudText Style="color:white;" Typo="Typo.h5"><b>+3</b></MudText>
-                        <MudText Style="color:white;" Typo="Typo.body2"><b>Years experience</b></MudText>
-                    </MudCard>
-                    <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
-                        <MudText Style="color:white;" Typo="Typo.h5"><b>+4</b></MudText>
-                        <MudText Style="color:white;" Typo="Typo.body2"><b>Completed project</b></MudText>
-                    </MudCard>
-                    <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
-                        <MudText Style="color:white;" Typo="Typo.h5"><b>+15</b></MudText>
-                        <MudText Style="color:white;" Typo="Typo.body2"><b>Technologies</b></MudText>
-                    </MudCard>
-                </MudItem> 
                 <MudItem>
+                    <ChildContent>
+                        <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
+                            <MudText Style="color:white;" Typo="Typo.h5"><b>+3</b></MudText>
+                            <MudText Style="color:white;" Typo="Typo.body2"><b>Years experience</b></MudText>
+                        </MudCard>
+                        <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
+                            <MudText Style="color:white;" Typo="Typo.h5"><b>+4</b></MudText>
+                            <MudText Style="color:white;" Typo="Typo.body2"><b>Completed project</b></MudText>
+                        </MudCard>
+                        <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
+                            <MudText Style="color:white;" Typo="Typo.h5"><b>+15</b></MudText>
+                            <br />
+                            <br />
+                            <MudText Style="color:white;" Typo="Typo.body2"><b>Technologies</b></MudText>
+                        </MudCard>
+                    </ChildContent>
                 </MudItem>
+                <MudStack>
+                    <br />
+                    <br />
+                    <br />
+                    <MudItem>
+                        <ChildContent>
+                            <MudButton Class="mx-5" Size="Size.Medium" Variant="Variant.Filled" Color="Color.Tertiary">
+                                View project
+                            </MudButton>
+                            <MudButton Size="Size.Medium" Variant="Variant.Outlined" Style="color:white;">
+                                Contact
+                            </MudButton>
+                        </ChildContent>
+                    </MudItem>
+                    <MudItem>
+                        <ChildContent>
+                            <MudText Style="color:white;" Typo="Typo.body2">Tech stack:</MudText>
+                            <MudChip T="String" Color="Color.Dark" Text="CSharp" />
+                            <MudChip T="String" Color="Color.Dark" Text="ASP .Net Core" />
+                            <MudChip T="String" Color="Color.Dark" Text="Microsoft Sql Server" />
+                            <MudChip T="String" Color="Color.Dark" Text="MySql" />
+                            <MudChip T="String" Color="Color.Dark" Text="Blazor" />
+                            <MudChip T="String" Color="Color.Dark" Text="Telegram Bot(with webhook)" />
+                            <MudChip T="String" Color="Color.Dark" Text="Windows Form Application" />
+                            <MudChip T="String" Color="Color.Dark" Text="FastReport .Net" />
+                            <MudChip T="String" Color="Color.Dark" Text="StimulSoft" />
+                        </ChildContent>
+                    </MudItem>
+                </MudStack>
             </MudGrid>
         </MudItem>
         <MudItem xxl="6" xl="6" lg="6" md="6" sm="12">
-            <MudGrid Justify="Justify.SpaceBetween">
-                <MudItem>
-                    <MudText Inline="true" Style="color:white;" Typo="Typo.h4">
-                        <b>I`m a <MudText Typo="Typo.h4" Inline="true" Color="Color.Info">.NET </MudText>developer</b>
-                    </MudText>
-                    <br />
-                    <br />
-                    <MudText Typo="Typo.body1" Style="color:lightgray;">Building powerful applications with C#, ASP.NET Core, and modern web technologies.</MudText>
-                </MudItem>
-                <MudItem Class="J-B">
-                    <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
-                        <MudText Style="color:white;" Typo="Typo.h5"><b>+3</b></MudText>
-                        <MudText Style="color:white;" Typo="Typo.body2"><b>Years experience</b></MudText>
-                    </MudCard>
-                    <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
-                        <MudText Style="color:white;" Typo="Typo.h5"><b>+4</b></MudText>
-                        <MudText Style="color:white;" Typo="Typo.body2"><b>Completed project</b></MudText>
-                    </MudCard>
-                    <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
-                        <MudText Style="color:white;" Typo="Typo.h5"><b>+15</b></MudText>
-                        <MudText Style="color:white;" Typo="Typo.body2"><b>Technologies</b></MudText>
-                    </MudCard>
-                </MudItem>
-            </MudGrid>
+            <ChildContent>
+                <MudCard>
+                    <MudCardHeader>
+                        <CardHeaderAvatar>
+                            <MudAvatar Color="Color.Secondary">I</MudAvatar>
+                        </CardHeaderAvatar>
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.body1">Hesam Katouli</MudText>
+                            <MudText Typo="Typo.body2">.Net and csharp junior developer</MudText>
+                        </CardHeaderContent>
+                        <CardHeaderActions>
+                            <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                        </CardHeaderActions>
+                    </MudCardHeader>
+                    <MudCardMedia Image="images/pilars.jpg" Height="250" />
+                    <MudCardContent>
+                        <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                        <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+                    </MudCardActions>
+                </MudCard>
+            </ChildContent>
         </MudItem>
     </MudGrid>
 </MudContainer>
