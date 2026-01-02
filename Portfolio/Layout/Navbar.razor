@@ -1,0 +1,51 @@
+﻿<MudNavMenu Class="Navbar" Bordered=true Rounded=true>
+    <MudGrid Justify="Justify.Center" Class="py-5 px-20">
+        <MudItem>
+            <MudText Color="Color.Info" Typo="Typo.h5"><b>Hesam Katouli</b></MudText>
+        </MudItem>
+        <MudHidden Breakpoint="Breakpoint.SmAndUp">
+            <MudSpacer />
+        </MudHidden>
+        <MudHidden Breakpoint="Breakpoint.SmAndDown">
+            <MudSpacer />
+            <MudItem>
+                <MudTooltip Text="Home" Color="Color.Dark" Arrow>
+                    <ChildContent>
+                        <MudIconButton ButtonType="ButtonType.Reset"
+                                       Icon="@Icons.Material.Outlined.Home"
+                                       Color="Color.Info" />
+                    </ChildContent>
+                </MudTooltip>
+                <MudTooltip Text="Project" Color="Color.Dark" Arrow>
+                    <ChildContent>
+                        <MudIconButton ButtonType="ButtonType.Reset"
+                                       Icon="@Icons.Material.Outlined.Folder"
+                                       Color="Color.Info" />
+                    </ChildContent>
+                </MudTooltip>
+                <MudTooltip Text="Tools" Color="Color.Dark" Arrow>
+                    <ChildContent>
+                        <MudIconButton ButtonType="ButtonType.Reset"
+                                       Icon="@Icons.Material.Outlined.Build"
+                                       Color="Color.Info" />
+                    </ChildContent>
+                </MudTooltip>      
+                <MudTooltip Text="Contact" Color="Color.Dark" Arrow>
+                    <ChildContent>
+                        <MudIconButton ButtonType="ButtonType.Reset"
+                                       Icon="@Icons.Material.Outlined.Phone"
+                                       Color="Color.Info" />
+                    </ChildContent>
+                </MudTooltip>
+            </MudItem>
+            <MudSpacer />
+        </MudHidden>
+        <MudHidden Breakpoint="Breakpoint.SmAndUp">
+            <MudSpacer />
+        </MudHidden>
+        <MudItem>
+            <MudButton Variant="Variant.Outlined" Size="Size.Small" Color="Color.Info" ButtonType="ButtonType.Button">Start Project</MudButton>
+        </MudItem>
+    </MudGrid>
+</MudNavMenu>
+

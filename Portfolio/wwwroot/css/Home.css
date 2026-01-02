@@ -1,6 +1,20 @@
 ﻿body {
-    ba
+    background-color: #0a0a0a;
 }
-.Navbar{
-
+.Navbar {
+    border-bottom:1px solid gray;
+}
+.Card-Sm {
+    display: inline-flex;
+    width: 8rem;
+    box-shadow: 2px 2px 12px rgba(128, 128, 128, 0.3);
+    background-color: black;
+    margin: 0 8px;
+    padding: 16px;
+    border-radius: 8px;
+    text-align:center;
+}
+.J-B {
+    display: flex;
+    flex-wrap: wrap;
 }
