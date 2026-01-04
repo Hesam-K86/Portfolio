@@ -16,9 +16,9 @@
                         <MudText Typo="Typo.body1" Style="color:lightgray;">Building powerful applications with C#, ASP.NET Core, and modern web technologies.</MudText>
                     </ChildContent>
                 </MudItem>
-                <MudItem>
+                <MudItem Class="d-flex justify-betwen">
                     <ChildContent>
-                        <MudCard Class="Card-Sm" Outlined="true" Elevation="2">
+                        <MudCard Class="Card-Sm" Outlined="true" Elevation="20">
                             <MudText Style="color:white;" Typo="Typo.h5"><b>+3</b></MudText>
                             <MudText Style="color:white;" Typo="Typo.body2"><b>Years experience</b></MudText>
                         </MudCard>
@@ -67,22 +67,24 @@
         </MudItem>
         <MudItem xxl="6" xl="6" lg="6" md="6" sm="12">
             <ChildContent>
-                <MudCard>
+                <MudCard Elevation="20" Outlined="true" Style="background-color: #0f0f0f">
                     <MudCardHeader>
                         <CardHeaderAvatar>
-                            <MudAvatar Color="Color.Secondary">I</MudAvatar>
+                            <MudAvatar Color="Color.Secondary" Elevation="3">
+                                <ChildContent>
+                                    <MudImage Alt="Profile_Avatar" Height="100" Width="200" ObjectFit="ObjectFit.Cover" ObjectPosition="ObjectPosition.Center">
+                                        <Image></Image>
+                                    </MudImage>
+                                </ChildContent>
+                            </MudAvatar>
                         </CardHeaderAvatar>
                         <CardHeaderContent>
-                            <MudText Typo="Typo.body1">Hesam Katouli</MudText>
-                            <MudText Typo="Typo.body2">.Net and csharp junior developer</MudText>
+                            <MudText Style="color:white;" Typo="Typo.body1">Hesam Katouli</MudText>
+                            <MudText Style="color:white;" Typo="Typo.body2">.Net and csharp junior developer</MudText>
                         </CardHeaderContent>
-                        <CardHeaderActions>
-                            <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-                        </CardHeaderActions>
                     </MudCardHeader>
-                    <MudCardMedia Image="images/pilars.jpg" Height="250" />
                     <MudCardContent>
-                        <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+                        <MudText Typo="Typo.body2"></MudText>
                     </MudCardContent>
                     <MudCardActions>
                         <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />

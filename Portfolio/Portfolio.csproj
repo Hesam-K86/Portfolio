@@ -12,4 +12,9 @@
     <PackageReference Include="MudBlazor" Version="8.14.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Avatar\" />
+    <Folder Include="wwwroot\Image\" />
+  </ItemGroup>
+
 </Project>

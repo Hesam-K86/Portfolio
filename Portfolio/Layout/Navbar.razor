@@ -1,14 +1,10 @@
-﻿<MudNavMenu Class="Navbar" Bordered=true Rounded=true>
-    <MudGrid Justify="Justify.Center" Class="py-5 px-20">
-        <MudItem>
-            <MudText Color="Color.Info" Typo="Typo.h5"><b>Hesam Katouli</b></MudText>
+﻿<MudNavMenu Style="border-bottom:1px solid gray;" Bordered="true" Rounded="true">
+    <MudGrid Justify="Justify.SpaceBetween" Class="px-20 py-5">
+        <MudItem xs="12" sm="3" md="3" lg="3" xl="3" Class="d-flex justify-start">
+            <MudText Class="py-1" Inline Color="Color.Info" Typo="Typo.h5"><b>Hesam Katouli</b></MudText>
         </MudItem>
-        <MudHidden Breakpoint="Breakpoint.SmAndUp">
-            <MudSpacer />
-        </MudHidden>
         <MudHidden Breakpoint="Breakpoint.SmAndDown">
-            <MudSpacer />
-            <MudItem>
+            <MudItem xs="12" sm="6" md="6" lg="6" xl="6" Class="d-flex justify-center">
                 <MudTooltip Text="Home" Color="Color.Dark" Arrow>
                     <ChildContent>
                         <MudIconButton ButtonType="ButtonType.Reset"
@@ -29,7 +25,7 @@
                                        Icon="@Icons.Material.Outlined.Build"
                                        Color="Color.Info" />
                     </ChildContent>
-                </MudTooltip>      
+                </MudTooltip>
                 <MudTooltip Text="Contact" Color="Color.Dark" Arrow>
                     <ChildContent>
                         <MudIconButton ButtonType="ButtonType.Reset"
@@ -38,14 +34,10 @@
                     </ChildContent>
                 </MudTooltip>
             </MudItem>
-            <MudSpacer />
         </MudHidden>
-        <MudHidden Breakpoint="Breakpoint.SmAndUp">
-            <MudSpacer />
-        </MudHidden>
-        <MudItem>
-            <MudButton Variant="Variant.Outlined" Size="Size.Small" Color="Color.Info" ButtonType="ButtonType.Button">Start Project</MudButton>
+
+        <MudItem xs="12" sm="3" md="3" lg="3" xl="3" Class="d-flex justify-end">
+            <MudButton Class="py-1" Variant="Variant.Outlined" Size="Size.Small" Color="Color.Info" ButtonType="ButtonType.Button">Start Project</MudButton>
         </MudItem>
     </MudGrid>
 </MudNavMenu>
-
